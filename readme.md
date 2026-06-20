@@ -57,6 +57,9 @@ Validates the temporary 6-digit code against lifecycle expiry windows to activat
 #### `POST /api/v1/products`
 Seeds a new limited-inventory flash sale entity.
 * **Body (JSON):**
-    ```
-```text?code_stdout&code_event_index=2
-Updated README.md generated successfully.
+```
+  {
+      "productId": "65f2c5e...",
+      "userId": "user_id_99"
+  }
+```
