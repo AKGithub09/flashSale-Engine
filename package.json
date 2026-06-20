@@ -1,0 +1,38 @@
+{
+  "name": "booking-engine(flashsale)",
+  "version": "1.0.0",
+  "description": "A backend for booking engine",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "backend",
+    "mongoDb"
+  ],
+  "author": "Akash Siddanadham",
+  "license": "ISC",
+  "dependencies": {
+    "@arcjet/node": "^1.5.0",
+    "@upstash/qstash": "^2.11.1",
+    "arcjet": "^1.5.0",
+    "bcryptjs": "^3.0.3",
+    "bullmq": "^5.79.0",
+    "cookie-parser": "^1.4.7",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "ioredis": "^5.11.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.0",
+    "nodemailer": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.4"
+  }
+}
